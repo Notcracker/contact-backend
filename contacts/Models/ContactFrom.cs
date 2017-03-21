@@ -8,12 +8,6 @@ namespace ContactApi.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Key { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Birthday { get; set; }
-        public string Gender { get; set; }
-        public long Phone { get; set; }
-        public string ContactMethod { get; set; }
-        public bool Terms { get; set; }
+        public string JSONString { get; set; }
     }
 }
